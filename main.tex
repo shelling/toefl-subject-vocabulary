@@ -1,11 +1,13 @@
+
+
 \documentclass[twoside,b5paper]{book}
 
-\usepackage{color}
+\usepackage{color}              % Text Color 
 \usepackage{url}
 \usepackage{fontspec}
 \usepackage{graphicx}
 \usepackage{textcomp}
-\usepackage{tipa}
+\usepackage{tipa}               % TeX International Phonetic Alphabet
 
 \setmainfont{BiauKai}
 \newfontfamily\kai{BiauKai}
@@ -18,7 +20,7 @@
 \marginparwidth=60pt
 \topmargin=0pt
 \headheight=0pt
-%% \headsep=0pt
+\headsep=50pt
 
 \voffset=0pt
 \hoffset=0pt
@@ -32,7 +34,7 @@
 
   \tableofcontents % uncomment this line to make toc
 
-  \chapter{Astronomy \kai 天文學}
+  \chapter{Astronomy天文學}
   \begin{enumerate}
     \item
       galaxy \textipa{/"g\ae{}l@ksI/} 銀河系\\
@@ -42,7 +44,7 @@
       nebula \textipa{/"nEbj@l@/} 星雲\\
       spiral nebula 漩渦星座\\
       nebular 星雲的\\
-      constellation \textipa{/""kAnst@"leS@n/} 星座 \textcolor{red}{*}\marginpar{\scriptsize a group of stars visible from Earth that forms a distinctive pattern and has a name}\\
+      constellation \textipa{/""kAnst@"leS@n/} 星座 \textcolor{red}{*}\marginpar{\scriptsize Constellation is a group of stars visible from Earth that forms a distinctive pattern and has a name}\\
       star cluster 星團
     \item
       radiation 輻射線; 放射 (v. radiate)
@@ -50,7 +52,7 @@
       magnetic field 磁場\\
       magnetic storm 磁暴\\
       magnetic pole 磁極\\
-      magnetosphere (圍繞地球的)磁力層 \textcolor{red}{*}\marginpar{\scriptsize 地球大氣層外的外圈厚數千英里受地球磁場控制}\\
+      magnetosphere (圍繞地球的)磁力層\footnote{地球大氣層外的外圈，厚數千英里，受地球磁場控制}\\
       magnitude (星的)光度
     \item
       particles; dust 微塵; 微粒
@@ -66,7 +68,7 @@
       Venus 金星\\
       Earth 地球\\
       Mars 火星\\
-      Jupiter 木星\textcolor{red}{*}\marginpar{\scriptsize In the solar system, the largest planet.}\\
+      Jupiter 木星\textcolor{red}{*}\marginpar{\scriptsize In the solar system, Jupiter is the largest planet.}\\
       Saturn \textipa{/"s\ae{}t\textrhookschwa{}n/} 土星\\
       Uranus \textipa{/ju"ren@s/} 天王星\\
       Neptune \textipa{/""nEptjun/} 海王星\\
@@ -78,10 +80,8 @@
       celestial \textipa{/s@"lEstS@l/} 天上的\\
       celestial body 天體
     \item
-      axis \textipa{/"\ae{}ksIs/} 軸\\
+      axis \textipa{/"\ae{}ksIs/} 軸 \textcolor{red}{*}\marginpar{\scriptsize The Earth revolves around the sun.}\marginpar{\scriptsize The Earth spins on its axis while circling the sun.}\\
       the earth's axis 地軸\\
-      \framebox{The Earth revolves around the sun.}\\
-      \framebox{The Earth spins on its axis while circling the sun.}\\
       rotation 自轉; (如繞軸或中心的)旋轉\\
       revolution 公轉; (天體的)周轉\\
     \item
@@ -91,10 +91,97 @@
       meteor shower 流星雨\\
       meteorite \textipa{/"mitI@r""aIt/} 隕石\\
       meteoroid \textipa{/"mitI@r""OId/} 流星體\\
+    \item
+      Hubble Space Telescope 哈伯太空望遠鏡
+    \item
+      satellite \textipa{/"s\ae{}t\r*l{}""aIt/} 衛星 \textcolor{red}{*}\marginpar{\scriptsize The Moon is a satellite of the Earth.}\\
+      satellite station 太空站
+    \item
+      astronaut \textipa{/"\ae{}str@""nOt/} 太空人\\
+      astronomer \textipa{/@"strAn@m\textrhookschwa/} 天文學家\\
+      astronomical observatory \textipa{/""\ae{}str@"nAmik\r*l{} @b"z\textrhookrevepsilon{}v@""torI/} 天文台\\
+      astronomical telescope 天文望遠鏡
+    \item
+      planet 行星\\
+      secondary planet (行星的)衛星\\
+      planetary \textipa{/"pl\ae{}n@""tErI/} 行星的\\
+      planetarium \textipa{/""pl\ae{}n@"tErI@m/} 天文館
+    \item
+      the Big Bang theory 宇宙大爆炸生成論\footnote{稠密聚結的氣態物質的一次性宇宙爆炸，可能發生於 100 至 150 億年前，並構成宇宙的起源}\\
+      the Big Dipper 北斗七星
+    \item
+      eclipse \textipa{/I"klIps/} 蝕\\
+      \begin{tabular}[b]{|l|l|}
+        a solar eclipse 日蝕          & a lunar eclipse 月蝕 \\
+        total solar eclipse 日全蝕    & total lunar eclipse 月全蝕 \\
+        partial solar eclipse 日偏蝕  & partial lunar eclipse 月偏蝕\\
+      \end{tabular} \\
+      wax 漸盈(常指月亮)\\
+      wane 漸虧\\
+      wax and wane 盛衰消長 \textcolor{red}{*}\marginpar{\scriptsize The moon waxes till it becomes full, and then wanes.}\\
+      crescent \textipa{/"krEs\r*n{}t/} 新月\\
+      half moon 半月(形)\\
+      full moon 滿月\\
+      syzygy \textipa{/"sIz@dZI/} 朔望\footnote{指日月地約略呈一直線 http://www.phy.cuhk.edu.hk/astroworld/dictionary/dictionary\_{}lunar.html}
+    \item
+      black hole 黑洞\footnote{重力極大的一塊空間，物質只進不出，就連光也無法逃逸，科學家認為黑洞由巨大的恆星崩潰而成}
+    \item
+      Polaris \textipa{/po"lErIs/} 北極星(= North Star = polestar \textipa{/"pol""stAr/})\\
+      the polar lights; aurora \textipa{/O"ror@/} 極光\\
+      aurora australis (= southern lights) 南極光\\
+      aurora borealis (= northern light) 北極光
+    \item
+      vernal equinox 春分 (約在三月廿一日)(= vernal point)\\
+      autumnal equinox \textipa{/O"tVmn\r*l{} "ikw@""nAks/} 秋分(約在九月廿二日)\\
+      summer solstice \textipa{/"sAlstIs/} 夏至\\
+      winter solstice 冬至
+    \item
+      configuration 輪廓; 形狀; 外型(如地形)
+    \item
+      asteroid \textipa{/"\ae{}strOId/} 小行星\\
+      asteroid belt 小行星帶 (Celetial bodies between Mars and Jupiter)
+    \item
+      atmosphere \textipa{/"\ae{}tm@s""fIr/} 大氣層; 大氣
+    \item
+      comet 彗星\footnote{一種繞行太陽冰和塵埃的混合物，在太陽附近會形成離子尾、塵埃尾和明亮的慧髮}\\
+      coma \textipa{/"kom@/} 彗髮\footnote{彗星周圍因太陽風而散佈的顆粒}\\
+    \item
+      cosmos \textipa{/"kAzm@s/} 宇宙\\
+      chaos 混沌；天地未開的狀態
+    \item
+      gravity \textipa{/"gr\ae{}v@tI/} 重力；地心引力\\
+      gravitational \textipa{/"gr\ae{}v@"teS@n\r*l{}/} (萬有引力的)\\
+      zero gravity 無重力(狀態)
+    \item
+      light year 光年\footnote{天文學所用的距離單位，為光一年間所走的距離}\\
+      leap year 閏年\footnote{以三百六十六日為一年的年份，二月份有二十九日}
+    \item
+      nuclear fusion 核融合\\
+      neclear fission 核分裂
+    \item
+      aphelion \textipa{/\ae{}"filI@n/} 遠日點\\
+      perihelion \textipa{/""pErI"hilI@n/} 近日點
+    \item
+      apogee \textipa{/"\ae{}p@""dZi/} 遠地點\\
+      perigee \textipa{/"pEr@""dZi/} 近地點
+    \item
+      corona \textipa{/k@"ron@/} 光暈；日冕
+    \item
+      hydrogen \textipa{/"haIdr@dZ@n/} 氫
+    \item
+      nova 新星\\
+      white dwarf 白矮星
   \end{enumerate}
 
 
   \chapter{Biology 生物學}
+  \begin{enumerate}
+    \item
+      primate \textipa{/"praImIt/} 靈長目動物(包括人猴猿)\\
+      reptile \textipa{/"rEptaIl/} 爬蟲類的冷血動物 \textcolor{red}{*}\marginpar{\scriptsize Whose body temperature changes according to the temperature around it, and that usually lays eggs to have babies.}\\
+      mammal \textipa{/"m\ae{}m\r*l/} 哺乳動物\\
+    \item
+  \end{enumerate}
 
   \chapter{Anthropology \& Archaeology 考古與史前人類發展}
 
